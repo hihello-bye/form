@@ -46,3 +46,12 @@ font-size: small;
    font-size: 4rem;
    color: white;
 }
+
+.background-overlay {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 50%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
