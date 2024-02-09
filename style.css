@@ -27,3 +27,11 @@ font-size: small;
 .image-credit a {
     color: rgb(255, 123, 0);
 }
+
+.logo {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: auto;
+    width: 10rem;
+}
