@@ -1,6 +1,29 @@
-body {
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.image {
     background-image: url(orangeWhiteFlowers.jpg);
 background-size: 50% auto;
 background-position: left top;
 background-repeat: no-repeat;
+position: relative;
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.image-credit {
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: rgba(255,255,255,0.4);
+padding: 5px;
+font-size: small;
+}
+
+.image-credit a {
+    color: rgb(255, 123, 0);
 }
