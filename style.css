@@ -5,11 +5,11 @@ body{
 
 .image {
     background-image: url(orangeWhiteFlowers.jpg);
-background-size: 50% auto;
+background-size: cover;
 background-position: left top;
 background-repeat: no-repeat;
 position: relative;
-width: 100%;
+width: 50%;
 height: 100vh;
 margin: 0;
 padding: 0;
@@ -18,7 +18,7 @@ padding: 0;
 .image-credit {
 position: absolute;
 bottom: 0;
-left: 0;
+left: (5% + 10rem + 1rem);
 color: rgb(255, 123, 0);
 padding: 5px;
 font-size: small;
