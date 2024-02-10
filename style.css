@@ -39,7 +39,7 @@ font-size: small;
 .header {
     position: absolute;
     top: 10%;
-    left: calc(20% + 10rem + 1rem);
+    left: calc(10% + 10rem + 1rem);
     font-family: "Zeyada", cursive;
     font-weight: 400;
     font-style: normal;
