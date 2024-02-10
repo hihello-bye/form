@@ -71,3 +71,10 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.25vw;
 }
+
+.sign-up {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
