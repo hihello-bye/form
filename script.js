@@ -1,10 +1,10 @@
 function validatePassword() {
-    var password = document.getElementById("password").ariaValueMax;
+    var password = document.getElementById("password").value;
     var confirmPassword = document.getElementById("confirm-password").value;
 
-    if (password != confirmPassword) {
+    if (password !== confirmPassword) {
         alert("Passwords must match!");
-        return false
+        return false;
     }
 
     return true;
