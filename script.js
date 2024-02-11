@@ -1,6 +1,9 @@
 var showError = false;
 
 function validatePassword() {
+    document.getElementById("email").setCustomValidity("");
+    document.getElementById("phone").setCustomValidity("");
+
     var password = document.getElementById("password").value;
     var confirmPassword = document.getElementById("confirm-password").value;
     var passwordMatchError = document.getElementById("password-match-error");
@@ -24,5 +27,6 @@ function handleFormSubmit() {
         passwordMatchError.textContent = "Passwords must match!";
     } else {
         passwordMatchError.textContent = "";
+        return true;
     }
 }

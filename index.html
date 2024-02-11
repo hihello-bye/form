@@ -23,7 +23,7 @@
     <h2>This is not real! Sign up now to start your new life.</h2>
     <h3>Let's begin!</h3>
 
-    <form class="sign-up">
+    <form class="sign-up" onsubmit="validatePassword(); handleFormSubmit();">
 
     <div class="form-group">
         <label for="first-name">First Name</label>
@@ -55,7 +55,7 @@
         <input type="password" id="confirm-password" name="confirm-password">
     </div>
         <div id="password-match-error" class="error-message"></div>
-        <input type="submit" value="Sign up" onclick="validatePassword(); handleFormSubmit();">
+        <input type="submit" value="Sign up">
     </form>
 </body>
 </html>
