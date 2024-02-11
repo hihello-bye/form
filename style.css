@@ -125,3 +125,9 @@ input[type="submit"] {
     font-size: 1vw;
 
 }
+
+.error-message {
+    color: rgb(227, 84, 23);
+    margin-left: 55%;
+    font-style: bold;
+}
