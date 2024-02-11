@@ -75,11 +75,11 @@ h3 {
 
 .sign-up {
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 35%;
+    right: 15%;
     display: flex;
     flex-direction: column;
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .sign-up label, .sign-up label {
@@ -93,6 +93,7 @@ h3 {
 
 .sign-up .form-group label, .sign-up, .form-group input {
     flex: 1;
+    height: 30px;
 }
 
 .sign-up, .form-group input {
@@ -109,6 +110,5 @@ h3 {
 }
 
 .form-group label {
-    width: 120px;
     margin-right: 10px;
 }
