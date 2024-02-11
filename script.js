@@ -1,3 +1,5 @@
+var showError = false;
+
 function validatePassword() {
     var password = document.getElementById("password").value;
     var confirmPassword = document.getElementById("confirm-password").value;
@@ -5,10 +7,22 @@ function validatePassword() {
 
     if (password !== confirmPassword) {
         passwordMatchError.textContent = "Passwords must match!";
+        showError = true
         return false;
     } else {
-        passwordMatchError.textContent = "";
+        showError = false;
         return true;
     }
 
+}
+
+function handleFormSubmit() {
+    event.preventDefault();
+    var passwordMatchError = document.getElementById("password-match-error")
+
+    if (showError) {
+        passwordMatchError.textContent = "Passwords must match!";
+    } else {
+        passwordMatchError.textContent = "";
+    }
 }
