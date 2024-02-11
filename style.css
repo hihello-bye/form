@@ -112,3 +112,8 @@ h3 {
 .form-group label {
     margin-right: 10px;
 }
+
+.form-group input {
+    background-color: rgb(251, 196, 85);
+    border: solid rgb(237, 136, 28);
+}
